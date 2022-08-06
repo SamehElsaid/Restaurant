@@ -1,0 +1,29 @@
+.gallery{
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.gallery h2{
+    font-family: "Alegreya";
+    font-size: 26px;
+}
+.gallery p{
+    font-size: 15px;
+    color: #666666;
+    margin-top: 12px;
+}
+.gallery p a{
+    color: #515151;
+    text-decoration: none;
+}
+/*  */
+.imgGallery {
+    width: 33.333%;
+    float: left;
+    padding: 2px;
+}
+/*  */
+@media screen and (max-width:500px) {
+    .imgGallery{
+        width: 100%;
+    }
+}

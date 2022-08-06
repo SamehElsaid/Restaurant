@@ -1,0 +1,131 @@
+.inline {
+    display: inline-block;
+}
+
+.gallery {
+    text-align: left;
+}
+
+.gallery p {
+    float: right;
+}
+
+.left,
+.right {
+    float: left;
+}
+
+.left {
+    width: 68%;
+    margin-right: 2%;
+}
+
+.right {
+    width: 30%;
+}
+
+/*  */
+.simple {
+    float: left;
+    width: 48%;
+    padding: 10px;
+    margin: 1% 1%;
+    border: 1px solid #efefef;
+
+
+}
+
+.simple h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 0.7rem;
+    font-weight: normal;
+}
+
+.simple h5 {
+    color: #333;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0.7rem;
+    font-weight: normal;
+}
+
+.simple p {
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    color: #686868;
+    margin-bottom: 15px;
+}
+
+.simple h6 {
+    font-size: 15px;
+    color: #666;
+    font-weight: normal;
+
+}
+
+.simple i {
+    margin-left: 10px;
+}
+
+.bgBlog {
+    background-color: #c1ab84;
+    padding: 30px 20px;
+    color: #fff;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+}
+
+.bgBlog span {
+    font-size: 15px;
+    margin-top: 10px;
+    display: block;
+    font-family: "Alegreya Sans";
+}
+
+/*  */
+form {
+    border-bottom: 1px solid #efefef;
+
+}
+
+input[type="text"] {
+    width: 90%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #efefef;
+
+    margin-bottom: 30px;
+}
+
+.right .contact {
+    width: 99%;
+    margin-left: 1%;
+    border-bottom: 1px solid #efefef;
+
+
+}
+.right .contact h4{
+    color: #333;
+    margin-top: 20px;
+}
+
+.right .contact p {
+    font-size: 15px;
+}
+@media screen and (max-width:500px) {
+    .left{
+        width: 100%;
+    }
+    .simple{
+        width: 100%;
+    }
+    .right{
+        margin-top: 50px;
+        width: 100%
+    }
+    .right .contact {
+        width: 100%;
+    }
+}

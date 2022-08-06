@@ -1,0 +1,67 @@
+.menuPage{
+    background-position: center;
+    
+}
+.menuPage h2{
+
+    font-size: 30px !important;
+}
+.menuPage p{
+
+    font-size: 22px    !important;
+}
+/*  */
+/*  */
+.menu{
+    overflow: hidden;
+}
+.frist {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+.cup {
+    border-bottom: 1px solid #efefef;
+}
+.frist .cupBox {
+    float: left;
+    width: 50%;
+}
+.frist .cupBox h3{
+    color: #253048;
+    font-size: 19px;
+    font-weight: normal;
+    font-family: Alegreya;
+
+}
+.frist .cupBox p{
+    float: right;
+    color: rgb(193, 171, 132);
+    font-size: 19px;
+    font-family: Alegreya;
+
+}
+.frist .infoMenu{
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+    margin-top: 20px;
+}
+/*  */
+/*  */
+.fish{
+    background-image: url(../img/shutterstock_232767205.jpg);
+}
+/*  */
+/*  */
+.dessert{
+    background-image: url(../img/shutterstock_255753799.jpg);
+
+}
+@media screen and (max-width:500px) {
+    .frist{
+        width: 100%;
+    }
+}
